@@ -28,5 +28,12 @@ public class Main {
         System.out.println("sArray1 and sArray2 equal: " + compareArrays(sArray1, sArray2));
         System.out.println("sArray1 and sArray3 equal: " + compareArrays(sArray1, sArray3));
 
+        //Пример для Задания №3
+        Pair<Integer, String> pair1 = new Pair<>(1, "one");
+        Pair<Double, Character> pair2 = new Pair<>(1.15, 'a');
+
+        System.out.println("Pair 1: " + pair1.toString());
+        System.out.println("Pair 2: " + pair2.toString());
+
     }
 }
